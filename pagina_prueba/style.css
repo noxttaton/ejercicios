@@ -1,0 +1,120 @@
+:root {
+    --color-primario: #7309F5;
+}
+body {
+    background-color: #ffffff;
+}
+.btn-marca {
+    background-color: var(--color-primario) !important;
+    border-color: var(--color-primario) !important;
+    color: #ffffff !important;  
+}
+.btn-input-cta {
+    border: 10px solid #ffffff !important;  /* borde blanco grueso */
+}
+.btn-marca:hover {
+    background-color: #7309F5 !important;
+    border-color: #7309F5 !important;
+    color: #ffffff !important;
+}
+.texto-marca {
+    color: var(--color-primario);
+}
+.seccion-gris {
+    background-color: #F5F5F5;
+    border-radius: 1rem;
+    padding: 4rem 4rem;  /* más padding arriba y abajo */
+    overflow: visible;   /* permite que la imagen se salga si es necesario */
+}
+.enlace-marca {
+    color: var(--color-primario) !important;
+    font-weight: bold;
+}
+.footer-menu{
+    font-weight: bold;
+}
+.badge-morado {
+    background-color: #7309F5;
+    color: #FFFFFF;
+}
+.img-celular {
+    max-width: 280px;
+    margin-right: -120px; /* ajustando el margin posiciono la imagen */
+    width: 100%;
+}
+.card-cta {
+    background-color: var(--color-primario)!important;
+    border: none;        /* poniendo el border aquí le quito el borde gris que traen las cards de Bootstrap */
+    max-width: 80%;
+    margin: 0 auto;
+}
+.titulo-educacion {
+    font-weight: bold;
+}
+/* portdada */
+.hero {
+    background-image: url('https://www.uv.mx/80aniversario/files/2024/12/UVITotonacapan3.jpg');
+    background-size: cover;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2rem; /* con esto le doy una separación interna para que el botón no quede pegado al borde */
+}
+.hero .btn {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+}
+.contenido-principal {
+    background-color: #ffffff;
+}
+.contenido-principal .container {
+    max-width: 1200px;  /* con esto ajuste el contenido principal para darle un margen y que no quede en todo el ancho del navegador */
+}
+.portal-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0);
+    height: 100%;          /* esto se agrega para que las tarjetas sean del mismo tamaño */
+}
+.portal-card__fullwidth {
+    grid-column: span 2;
+}
+.educacion-financiera-card {
+        align-self: center;  
+        border-radius: 1rem;
+        max-width: 280px;
+}
+.descripcion-educacion-financiera {
+    max-width: 100%;
+}
+.lista-pasos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.paso {
+    display: flex;       /* pone el número y el texto lado a lado */
+    align-items: flex-start;  /* alinea arriba, no al centro */
+    gap: 1rem;
+}
+.paso__numero {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--color-primario);      /* color principal de la página demo */
+    min-width: 2.5rem;   /* evita que el número se encoja */
+}
+@media (max-width: 768px) {
+    .contenido-principal {
+        grid-template-columns: 1fr;
+    }
+    .portal-card__fullwidth {
+        grid-column: span 1;
+    }
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Banca digital 100% en línea"> <!-- se agrega para SEO -->
+    <title> Página Boot 5 (Pruebas) </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand fw-bold display-6" href="#">Banca Digital<span style="color: var(--color-primario);">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Personas</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Empresas</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Nosotros</a> </li>
+                    <li class="nav-item"> <a class="nav-link enlace-marca" href="#">Inicia sesión</a> </li>
+                    <li class="nav-item"> <a href="#" class="btn btn-marca ms-2" aria-label="Botón para descargar la app">Descarga la app</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <button class="btn btn-marca btn-lg" aria-label="Botón para identidad y memoria visual"> Identidad y memoria visual </button>
+    </section>
+
+ <!-- BLOQUE: portal-main -->
+    <section class="contenido-principal">
+        <div class="container">
+            <!-- fila 1 y 2: son las 4 primeras tarjetas -->
+             <div class="row g-3 align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="portal-card">
+                        <span class="badge badge-morado">Nuevo</span>
+                        <small class="ms-1 texto-marca">Adquiere nuestra nueva tarjeta de crédito</small>
+                        <h4 class="fw-bold display-4">La mejor banca digital<span style="color: var(--color-primario);">.</span></h4>
+                        <p style="font-size: 1.25rem;">Dile adiós a los bancos tradicionales y disfruta todos los beneficios de un banco 100% digital.</p>
+                        <button class="btn btn-marca btn-lg" type="submit">Abre tu cuenta hoy</button>
+                        <div class="d-flex gap-3 mt-3">
+                             <a href="#" class="d-inline-flex align-items-center gap-2 text-dark link-underline link-underline-opacity-0">
+                                <i class="bi bi-apple"></i>
+                                <small>Consíguela en <br><span style="font-weight: bold;">App Store</span></small>
+                            </a>
+                            <a href="#" class="d-inline-flex align-items-center gap-2 text-dark link-underline link-underline-opacity-0">
+                                <i class="bi bi-google-play"></i>
+                                <small>Consíguela en <br><span style="font-weight: bold;">Google Play</span></small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portal-card">
+                        <img src="imagenes/phone.png" alt="imagen-prototipo" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portal-card">
+                        <img src="imagenes/image-1.png" alt="imagen-prototipo" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portal-card">
+                        <h4 class="fw-bold display-4">Haz que crezca tu dinero<span style="color: var(--color-primario);">.</span></h4><br>
+                        <div class="lista-pasos">
+                            <div class="paso">
+                                <span class="paso__numero">01</span>
+                                <div>
+                                    <h6 class="fw-bold fs-5">Crea tu cuenta.</h6>
+                                <p class="text-muted">Es muy sencillo, solamente ingresa tu celular y listo.</p>
+                                </div>
+                            </div>
+                            <div class="paso">
+                                <span class="paso__numero">02</span>
+                                <div>
+                                    <h6 class="fw-bold fs-5">Solicita tu tarjeta personalizada.</h6>
+                                    <p class="text-muted">Selecciona el color que más te guste para tu tarjeta.</p>
+                                </div>
+                            </div>
+                            <div class="paso">
+                                <span class="paso__numero">03</span>
+                                <div>
+                                    <h6 class="fw-bold fs-5">Activa tu tarjeta y empieza a utilizarla.</h6>
+                                    <p class="text-muted">Inicia sesión en la app e ingresa el número de tarjeta.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- fila 3: tarjeta de ancho completo -->
+            <div class="row mt-4 align-items-center seccion-gris">
+                <div class="col-12 col-md-6">
+                    <h4 class="fw-bold display-4 mb-4">Manda y recibe pagos al instante<span style="color: var(--color-primario);">.</span></h4>
+                    <p style="font-size: 1.25rem;">Tu dinero está seguro en todo momento, puedes consultar todos los movimientos de tu cuenta directamente desde tu celular.</p>
+                    <button class="btn btn-marca btn-lg" type="submit" aria-label="Botón para abrir cuenta">Abre tu cuenta hoy</button>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="imagenes/image-2.png" alt="imagen prototipo de celular" class="img-celular">
+                </div>
+            </div>
+            <!-- fila 4: tarjeta de ancho completo -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h5 class="text-center fw-bold display-5">
+                        Educación financiera<span style="color: var(--color-primario);">.</span>
+                    </h5>
+                    <p class="text-center text-dark" style="font-size: 1.25rem;">
+                        Comienza a aprender con nuestros artículos.
+                    </p>
+                    <div class="row row-cols-1 row-cols-md-4 g-3 mt-2 justify-content-center">
+                        <div class="card border-0 h-100">
+                            <img src="imagenes/educacion1.png" class="card-img-top educacion-financiera-card" alt="imagen de educación financiera">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-body-secondary">12 de diciembre de 2023     créditos</small></p>
+                                <h5 class="card-title">Que debes saber antes de tramitar un crédito hipotecario</h5>
+                                <a href="#" class="d-inline-flex align-items-center gap-1 text-decoration-none enlace-marca" aria-label="Botón para leer más">Leer más <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="card border-0 h-100">
+                            <img src="imagenes/educacion2.png" class="card-img-top educacion-financiera-card" alt="imagen de educación financiera">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-body-secondary">12 de diciembre de 2023     créditos</small></p>
+                                <h5 class="card-title">Que debes saber antes de tramitar un crédito hipotecario</h5>
+                                <a href="#" class="d-inline-flex align-items-center gap-1 text-decoration-none enlace-marca" aria-label="Botón para leer más">Leer más <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="card border-0 h-100">
+                            <img src="imagenes/educacion3.png" class="card-img-top educacion-financiera-card" alt="imagen de educación financiera">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-body-secondary">12 de diciembre de 2023     créditos</small></p>
+                                <h5 class="card-title">Que debes saber antes de tramitar un crédito hipotecario</h5>
+                                <a href="#" class="d-inline-flex align-items-center gap-1 text-decoration-none enlace-marca" aria-label="Botón para leer más">Leer más <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="card border-0 h-100">
+                            <img src="imagenes/educacion4.png" class="card-img-top" alt="imagen de educación financiera">
+                            <div class="card-body">
+                                <p class="card-text"><small class="text-body-secondary">12 de diciembre de 2023     créditos</small></p>
+                                <h5 class="card-title">Que debes saber antes de tramitar un crédito hipotecario</h5>
+                                <a href="#" class="d-inline-flex align-items-center gap-1 text-decoration-none enlace-marca" aria-label="Botón para leer más">Leer más <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <!-- fila 5: cta correo -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card text-center text-white card-cta">
+                        <div class="card-body py-5">
+                            <h5 class="card-title fw-bold display-4">Abre tu cuenta hoy</h5>
+                            <p class="card-text" style="font-size: 1.35rem;">Es rápido, solo te tomará menos de 5 minutos.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="input-group input-group-lg" style="max-width: 450px;">
+                                    <input type="email" class="form-control" placeholder="Correo electrónico" aria-label="Campo de correo electrónico">
+                                    <button class="btn btn-marca btn-input-cta" type="submit" aria-label="Botón para abrir cuenta">Abre tu cuenta hoy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+    </section>
+    <footer class="bg-light py-5">
+        <!-- 
+        aquí va un "productos" con las opciones tarjetas de crédito, débito y crédito hipotecario después se repite la columna con esos tres botones en forma de texto, tres veces. y al final dice "banca digital" 
+        la dirección "Av. Paseo de la Reforma 299" y abajo iconos que llevan a fb, yt y x
+         -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6 class="footer-menu"> Productos </h6>
+                    <ul class="list-unstyled">
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Tarjeta de crédito</a></li>
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Tarjeta de débito</a></li>
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Crédito hipotecario</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="footer-menu"> Productos </h6>
+                    <ul class="list-unstyled">
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Tarjeta de crédito</a></li>
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Tarjeta de débito</a></li>
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Crédito hipotecario</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="footer-menu"> Productos </h6>
+                    <ul class="list-unstyled">
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Tarjeta de crédito</a></li>
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Tarjeta de débito</a></li>
+                        <li><a class="link-dark link-underline link-underline-opacity-0" href="#">Crédito hipotecario</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="footer-menu"> Banca digital </h6>
+                    <p> Av. Paseo de la Reforma 299 </p>
+                    <div class="d-flex gap-3">
+                            <a href="#" class="text-dark fs-5"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-dark fs-5"><i class="bi bi-youtube"></i></a>
+                            <a href="#" class="text-dark fs-5"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="d-flex justify-content-between align-items-center container">
+            <p class="mb-0"><small> 2026. Banca Digital. Todos los derechos reservados.</small></p>
+            <div>
+                <a href="#" class="link-dark link-underline link-underline-opacity-0 me-3"><small>Términos y condiciones</small></a>
+                <a href="#" class="link-dark link-underline link-underline-opacity-0"><small>Aviso de privacidad</small></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
