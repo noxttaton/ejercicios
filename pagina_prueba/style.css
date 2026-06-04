@@ -12,7 +12,7 @@ body {
 }
 .btn-marca {
     background-color: var(--color-primario) !important;
-    border-color: var(--color-primario) !important;
+    border-color: var(--color-primario);
     color: #ffffff !important;  
 }
 .btn-input-cta {
