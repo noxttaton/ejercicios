@@ -81,7 +81,7 @@ body {
     padding: 1.5rem;
     border-radius: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0);
-    height: 100%;          /* esto se agrega para que las tarjetas sean del mismo tamaño */
+    height: 100%;          /* esto se agrega para que las tarjetas sean del mismo tamaño   */
 }
 .portal-card__fullwidth {
     grid-column: span 2;
